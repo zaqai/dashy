@@ -36,7 +36,7 @@ sections:
     widgets:
       - type: gl-current-mem
         options:
-          hostname: http://1.117.9.226:33777
+          hostname: https://dashy.uwbanner.cn
         id: 0_1166_glcurrentmem
 
   - name: 服务器相关
@@ -81,7 +81,7 @@ sections:
     widgets:
       - type: gl-current-cpu
         options:
-          hostname: http://1.117.9.226:33777
+          hostname: https://dashy.uwbanner.cn
         id: 0_765_glcurrentcpu
   - name: CPU History
     icon: fas fa-microchip
@@ -90,7 +90,7 @@ sections:
     widgets:
       - type: gl-cpu-history
         options:
-          hostname: http://1.117.9.226:33777
+          hostname: https://dashy.uwbanner.cn
           limit: 600
         id: 0_1018_glcpuhistory
   - name: System Alerts
@@ -98,14 +98,14 @@ sections:
     widgets:
       - type: gl-alerts
         options:
-          hostname: http://1.117.9.226:33777
+          hostname: https://dashy.uwbanner.cn
         id: 0_1296_glalerts
   - name: Network Interfaces
     icon: fas fa-ethernet
     widgets:
       - type: gl-network-interfaces
         options:
-          hostname: http://1.117.9.226:33777
+          hostname: https://dashy.uwbanner.cn
           limit: 3
         id: 0_1806_glnetworkinterfaces
     displayData:
@@ -121,7 +121,7 @@ sections:
     widgets:
       - type: gl-disk-io
         options:
-          hostname: http://1.117.9.226:33777
+          hostname: https://dashy.uwbanner.cn
           
         id: 0_579_gldiskio
     displayData:
